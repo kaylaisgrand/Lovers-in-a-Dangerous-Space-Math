@@ -587,12 +587,13 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: b86ae564-d36f-4db8-9a99-7dd1497c0941
+  cloudProjectId: 6dce0d89-75f0-479c-a847-6461439313fe
   projectName: Math in a Dangerous Space Time
-  organizationId: kaylaisgrand
+  organizationId: unity_igstjekq1dnp0g
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
