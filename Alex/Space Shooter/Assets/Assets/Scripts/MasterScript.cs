@@ -11,7 +11,7 @@ public class MasterScript : MonoBehaviour
     public Text Txt;
 
 
-    public int LifeCount = 3; //if lifecount = 0, player loses, Game Over.
+   // public int LifeCount = 3; //if lifecount = 0, player loses, Game Over.
     public int a;
     public int b;
     public int c;
@@ -66,27 +66,27 @@ public class MasterScript : MonoBehaviour
     }
 
     // if user taps correct response
-    public void Correct()
-    {
-        SpwnScript = Spawn.GetComponent<SpawnerScript>();
-        //UI says "Correct"
-        SpwnScript.PlayerFireFirstRow();//Player Fires on first row
-        //Generate new math problem
-        //Move Enemy ships?
-    }
+    //public void Correct()
+    //{
+    //    SpwnScript = Spawn.GetComponent<SpawnerScript>();
+    //    //UI says "Correct"
+    //    SpwnScript.PlayerFireFirstRow();//Player Fires on first row
+    //    //Generate new math problem
+    //    //Move Enemy ships?
+    //}
     
 
     //if user taps incorrect response
-    public void Incorrect()
-    {
-        SpwnScript = Spawn.GetComponent<SpawnerScript>();
+    //public void Incorrect()
+    //{
+    //    SpwnScript = Spawn.GetComponent<SpawnerScript>();
 
-        //Player doesn't fire
-        //UI says "Incorrect"
-        SpwnScript.EnemyFire();//Enemy Ships FIRE
-        //LifeCount - 1;  //Life count -1 and UI displays this change
-        //Generate new math problem
-    }
+    //    //Player doesn't fire
+    //    //UI says "Incorrect"
+    //    SpwnScript.EnemyFire();//Enemy Ships FIRE
+    //    //LifeCount - 1;  //Life count -1 and UI displays this change
+    //    //Generate new math problem
+    //}
     
     
 

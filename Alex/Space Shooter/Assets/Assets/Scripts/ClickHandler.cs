@@ -13,12 +13,12 @@ public class ClickHandler : MonoBehaviour {
     public int LifeCount = 3;
 
 
-    public void ButtonHey()
-    {
-       string j = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Text>().text;
+    //public void ButtonHey()
+    //{
+    //   string j = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Text>().text;
 
-        print(j);
-    }
+    //    print(j);
+    //}
 
 
     public void Reset()
@@ -44,8 +44,10 @@ public class ClickHandler : MonoBehaviour {
         {
             SpwnScript.EnemyFire();
             LifeCount = LifeCount - 1;
-            print("You now have this many lives: " + LifeCount.ToString());
+            print("Incorrect. The correct answer to " + MstrScript.a.ToString() + " X " + MstrScript.b.ToString() + " is " + MstrScript.c.ToString());
+            print("You now have " + LifeCount.ToString() + " lives left " );
             print("TRY AGAIN.");
+           
         }
 
         Reset();
@@ -55,7 +57,8 @@ public class ClickHandler : MonoBehaviour {
     {
         if(LifeCount == 0)
         {
-            print("YOU LOSE");
+            print("Earth has been destroyed. GAME OVER, MAN! GAME OVER!");
+            
         }
     }
 }

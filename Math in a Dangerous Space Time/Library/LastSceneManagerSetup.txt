@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Math Tables.unity
+- path: Assets/Scene/Splash Screen.unity
   isLoaded: 1
   isActive: 1
