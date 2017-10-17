@@ -94,8 +94,13 @@
     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
+    <Compile Include="Assets\Assets\Scripts\ClickHandler.cs" />
     <Compile Include="Assets\Assets\Scripts\DestroyByBoundary.cs" />
+    <Compile Include="Assets\Assets\Scripts\DestroyByContact.cs" />
+    <Compile Include="Assets\Assets\Scripts\EnemyMath.cs" />
+    <Compile Include="Assets\Assets\Scripts\MasterScript.cs" />
     <Compile Include="Assets\Assets\Scripts\Mover.cs" />
+    <Compile Include="Assets\Assets\Scripts\SpawnerScript.cs" />
     <Compile Include="Assets\Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
   </ItemGroup>
