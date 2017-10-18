@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scene/Splash Screen.unity
+=======
+- path: Assets/Scene/Dialogue Scne.unity
+>>>>>>> JULIEN
   isLoaded: 1
   isActive: 1

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Assets/_Scenes/Splash Screen.unity
+- path: Assets/Assets/_Scenes/Dialogue Scne.unity
   isLoaded: 1
   isActive: 1
