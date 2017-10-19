@@ -21,6 +21,15 @@ public class SpawnerScript : MonoBehaviour
         whatToSpawnClone[4] = Instantiate(whatToSpawnPrefab[0], spawnLocations[4].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
     }
 
+    public void RemoveRowOne()
+    {
+        Destroy(whatToSpawnClone[0]);
+        Destroy(whatToSpawnClone[1]);
+        Destroy(whatToSpawnClone[2]);
+        Destroy(whatToSpawnClone[3]);
+        Destroy(whatToSpawnClone[4]);
+    }
+
     public void SpawnRowTwo()
     {
         whatToSpawnClone[5] = Instantiate(whatToSpawnPrefab[0], spawnLocations[5].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
@@ -29,6 +38,14 @@ public class SpawnerScript : MonoBehaviour
         whatToSpawnClone[8] = Instantiate(whatToSpawnPrefab[0], spawnLocations[8].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
         whatToSpawnClone[9] = Instantiate(whatToSpawnPrefab[0], spawnLocations[9].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
         
+    }
+    public void RemoveRowTwo()
+    {
+        Destroy(whatToSpawnClone[5]);
+        Destroy(whatToSpawnClone[6]);
+        Destroy(whatToSpawnClone[7]);
+        Destroy(whatToSpawnClone[8]);
+        Destroy(whatToSpawnClone[9]);
     }
 
     public void SpawnRowThree()
@@ -39,6 +56,14 @@ public class SpawnerScript : MonoBehaviour
         whatToSpawnClone[13] = Instantiate(whatToSpawnPrefab[0], spawnLocations[13].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
         whatToSpawnClone[14] = Instantiate(whatToSpawnPrefab[0], spawnLocations[14].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
     }
+    public void RemoveRowThree()
+    {
+        Destroy(whatToSpawnClone[10]);
+        Destroy(whatToSpawnClone[11]);
+        Destroy(whatToSpawnClone[12]);
+        Destroy(whatToSpawnClone[13]);
+        Destroy(whatToSpawnClone[14]);
+    }
 
     public void SpawnRowFour()
     {
@@ -47,6 +72,14 @@ public class SpawnerScript : MonoBehaviour
         whatToSpawnClone[17] = Instantiate(whatToSpawnPrefab[0], spawnLocations[17].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
         whatToSpawnClone[18] = Instantiate(whatToSpawnPrefab[0], spawnLocations[18].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
         whatToSpawnClone[19] = Instantiate(whatToSpawnPrefab[0], spawnLocations[19].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+    }
+    public void RemoveRowFour()
+    {
+        Destroy(whatToSpawnClone[15]);
+        Destroy(whatToSpawnClone[16]);
+        Destroy(whatToSpawnClone[17]);
+        Destroy(whatToSpawnClone[18]);
+        Destroy(whatToSpawnClone[19]);
     }
     public void PlayerFireFirstRow()
     {
