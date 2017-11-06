@@ -7,8 +7,16 @@ public class Level1MasterScript : MonoBehaviour
 {
     public GameObject Spawn;
     public GameObject[] ButtonArray = new GameObject[5];
+	private int[] ShipValues = new int[5];
     private SpawnerScript SpwnScript;
     public Text Txt;
+    public Text Counter;
+    public Text TimerText;
+	public GameObject IncorrectScreen;
+	public GameObject WinScreen;
+	public GameObject LossScreen;
+	public bool ActivateTimer;
+	public float myCoolTimer = 10;
 
 
    // public int LifeCount = 3; //if lifecount = 0, player loses, Game Over.
@@ -25,7 +33,7 @@ public class Level1MasterScript : MonoBehaviour
         Txt.GetComponent<Text>().text = a.ToString() + " X " + b.ToString() + " = ?" ;
 
 
-        
+
     }
 
     public int RandomNotC()
@@ -36,59 +44,77 @@ public class Level1MasterScript : MonoBehaviour
         {
             RandomNotC();
         }
-        
+
         return x;
-        
+
     }
 
     public void RandomlySetAnswers()
     {
         int r = Random.Range(0, 5);  //Randomly picks array element number between 0 - 4;
 
-        
+		for (int i = 0; i < 5; i++) {
+			ShipValues [i] = RandomNotC ();  //Sets all values to random and not equal to C;
 
-        for(int i = 0; i < 5 ; i++)
-        {
-            
+			if (i == r) {
+				ShipValues [r] = c; // Random ship is set to C;
 
-            if(i == r)
-            {
-                ButtonArray[r].GetComponentInChildren<Text>().text = c.ToString();   //Randomly selected button is set = C;
+				ButtonArray[r].GetComponentInChildren<Text>().text = c.ToString();   //Randomly selected 		button is set = C;
             }
             else
             {
-                ButtonArray[i].GetComponentInChildren<Text>().text = RandomNotC().ToString(); //Set all other buttons to be random
+					
+					ButtonArray [i].GetComponentInChildren<Text>().text = ShipValues [i].ToString ();  //Set all other buttons to be random 
+			
             }
 
-            
-        }
+
+		}
+			
+        
 
     }
-    
-    
+
+
+
+
+
 
     // Use this for initialization
     void Start()
     {
-        SpwnScript = Spawn.GetComponent<SpawnerScript>();
 
-        
+		WinScreen.SetActive (false);
+		LossScreen.SetActive (false);
+        SpwnScript = Spawn.GetComponent<SpawnerScript>();
+		IncorrectScreen.GetComponentInChildren<Text> ().text = "LEVEL 1 \n Multiplying with 2";
+        Counter.GetComponent<Text>().text = "Lives: 3";
         SpwnScript.SpawnRowOne(); // Spawn Row 1
         SpwnScript.SpawnRowTwo();
         SpwnScript.SpawnRowThree();
         SpwnScript.SpawnRowFour();
-
         NewMultiplyProblem();
 
         RandomlySetAnswers();
-      
 
+
+		TimerText.GetComponent<Text> ();
+		ActivateTimer = false;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+		if (ActivateTimer == true) {
+			myCoolTimer -= Time.deltaTime;
+			if (myCoolTimer > 0) {
+				TimerText.text = myCoolTimer.ToString ("f2");
+			}
+			if (myCoolTimer <= 0) {
+				ActivateTimer = false;
+			}
+		}
+	
     }
 }

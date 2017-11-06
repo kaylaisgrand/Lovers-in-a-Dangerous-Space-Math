@@ -11,8 +11,8 @@ public class Level1ClickHandler : MonoBehaviour {
     public GameObject Spawn;
     private SpawnerScript SpwnScript;
     private Level1MasterScript MstrScript;
-    public int LifeCount = 3;
-    private int CorrectCount = 0;
+	public int LifeCount;
+    private int CorrectCount;
 
 
 
@@ -32,55 +32,102 @@ public class Level1ClickHandler : MonoBehaviour {
 
         if (theButtonValue == MstrScript.c.ToString())
         {
-            SpwnScript.PlayerFireFirstRow();            
+            SpwnScript.PlayerFireFirstRow();
             CorrectCount++;
             if(CorrectCount == 1)
             {
-                print("CORRECT!");
+                //Correct 1
                 SpwnScript.Invoke("RemoveRowFour", 1);
                 SpwnScript.Invoke("SpawnRowOne", 1);
+				MstrScript.myCoolTimer = 10;
             }
             else if(CorrectCount == 2)
             {
-                print("CORRECT!");
+                //Correct 2
                 SpwnScript.Invoke("RemoveRowThree", 1);
                 SpwnScript.Invoke("SpawnRowOne", 1);
+				MstrScript.myCoolTimer = 10;
             }
             else if(CorrectCount == 3)
             {
-                print("CORRECT!");
+                //Correct 3
                 SpwnScript.Invoke("RemoveRowTwo", 1);
                 SpwnScript.Invoke("SpawnRowOne", 1);
+				MstrScript.myCoolTimer = 10;
             }
             else if(CorrectCount == 4)
             {
-                print("CORRECT!");
-                print("YOU WIN!");
-                SceneManager.LoadScene(0);
+                //YOU WIN
+				MstrScript.WinScreen.SetActive (true);
+				MstrScript.ActivateTimer = false;
+
             }
-            
-          
+
+
         }
         else
         {
             SpwnScript.EnemyFire();
+			Invoke ("DisplayIncorrect", 1);
             LifeCount = LifeCount - 1;
-            print("Incorrect. The correct answer to " + MstrScript.a.ToString() + " X " + MstrScript.b.ToString() + " is " + MstrScript.c.ToString());
-            print("You now have " + LifeCount.ToString() + " lives left " );
-            print("TRY AGAIN.");
-           
+            MstrScript.Counter.GetComponent<Text>().text = "Lives: " + LifeCount.ToString();
+
+			//  print("You now have " + LifeCount.ToString() + " lives left " );
+           // print("TRY AGAIN.");
+
         }
 
-        Invoke("Reset", 2);
+        Invoke("Reset", 1);
     }
+
+	public void DisplayIncorrect(){
+		//Shows the incorrect screen and resets the timer back to 10 sec
+		MstrScript = Master.GetComponent<Level1MasterScript>();
+		MstrScript.IncorrectScreen.GetComponentInChildren<Text>().text = "Incorrect. \n The correct answer to " + MstrScript.a.ToString() + " X " + MstrScript.b.ToString() + " is " + MstrScript.c.ToString();
+		MstrScript.IncorrectScreen.SetActive (true);
+		MstrScript.ActivateTimer = false;
+	}
+
+	public void CloseIncorrect(){
+		//closes the window and resets timer
+		MstrScript = Master.GetComponent<Level1MasterScript>();
+		MstrScript.IncorrectScreen.SetActive (false);
+		MstrScript.myCoolTimer = 10;
+		MstrScript.ActivateTimer = true;
+	}
+
+	public void LoadNextLevel(){
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+	}
+	public void LoadMainMenu(){
+		SceneManager.LoadScene("Splash Screen");
+	}
+
+	public void Start(){
+		LifeCount = 3;
+		CorrectCount = 0;
+		MstrScript = Master.GetComponent<Level1MasterScript>();
+	}
+
 
     public void Update()
     {
-        if(LifeCount == 0)
+
+		if(LifeCount == 0)
         {
-            print("Earth has been destroyed. GAME OVER, MAN! GAME OVER!");
-            SceneManager.LoadScene(0);
+           
+			MstrScript.LossScreen.SetActive (true);
+			MstrScript.ActivateTimer = false;
 
         }
+		if (MstrScript.myCoolTimer <= 0) {
+			
+			MstrScript.LossScreen.SetActive (true);
+			MstrScript.ActivateTimer = false;
+		}
+
+
+
+
     }
 }
