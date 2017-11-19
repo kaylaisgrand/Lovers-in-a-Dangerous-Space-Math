@@ -11,10 +11,12 @@ public class Level1MasterScript : MonoBehaviour
     private SpawnerScript SpwnScript;
     public Text Txt;
     public Text Counter;
+	public Text WaveCount;
     public Text TimerText;
 	public GameObject IncorrectScreen;
 	public GameObject WinScreen;
 	public GameObject LossScreen;
+	public GameObject PauseScreen;
 	public bool ActivateTimer;
 	public float myCoolTimer = 10;
 
@@ -38,13 +40,14 @@ public class Level1MasterScript : MonoBehaviour
 
     public int RandomNotC()
     {
+		//Method is SUPPOSED to prevent random answers from being equal to the correct answer, C. Doesn't seem to be working.
         int x = Random.Range(1, 25);
 
         if(x == c)
         {
             RandomNotC();
         }
-
+		// ELSE? maybe.
         return x;
 
     }
@@ -59,7 +62,7 @@ public class Level1MasterScript : MonoBehaviour
 			if (i == r) {
 				ShipValues [r] = c; // Random ship is set to C;
 
-				ButtonArray[r].GetComponentInChildren<Text>().text = c.ToString();   //Randomly selected 		button is set = C;
+				ButtonArray[r].GetComponentInChildren<Text>().text = c.ToString();   //Randomly selected button is set = C;
             }
             else
             {
@@ -86,6 +89,7 @@ public class Level1MasterScript : MonoBehaviour
 
 		WinScreen.SetActive (false);
 		LossScreen.SetActive (false);
+		PauseScreen.SetActive (false);
         SpwnScript = Spawn.GetComponent<SpawnerScript>();
 		IncorrectScreen.GetComponentInChildren<Text> ().text = "LEVEL 1 \n Multiplying with 2";
         Counter.GetComponent<Text>().text = "Lives: 3";
@@ -109,7 +113,7 @@ public class Level1MasterScript : MonoBehaviour
 		if (ActivateTimer == true) {
 			myCoolTimer -= Time.deltaTime;
 			if (myCoolTimer > 0) {
-				TimerText.text = myCoolTimer.ToString ("f2");
+				TimerText.text = "Time: " + myCoolTimer.ToString ("f0");
 			}
 			if (myCoolTimer <= 0) {
 				ActivateTimer = false;
