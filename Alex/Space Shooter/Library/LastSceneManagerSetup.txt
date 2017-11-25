@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Assets/_Scenes/Level Select.unity
+=======
+- path: Assets/Assets/_Scenes/Splash Screen.unity
+>>>>>>> Finishing
   isLoaded: 1
   isActive: 1

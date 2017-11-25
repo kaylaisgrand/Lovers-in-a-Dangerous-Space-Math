@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5fa250ef08cbbe5449d6467f32d3a278
+timeCreated: 1511556036
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Tomorrow People
+  fontNames:
+  - Tomorrow People
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

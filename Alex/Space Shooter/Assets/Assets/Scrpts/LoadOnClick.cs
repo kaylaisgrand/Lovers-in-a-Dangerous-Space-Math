@@ -8,5 +8,8 @@ public class LoadOnClick : MonoBehaviour {
     public void LoadScene(string levelName)
     {
 		SceneManager.LoadScene(levelName);
+        LoadingScreenManager.LoadScene(levelName);
     }
+    
+    
 }
