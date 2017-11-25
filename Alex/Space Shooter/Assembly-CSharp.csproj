@@ -125,7 +125,6 @@
      <Compile Include="Assets\Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Assets\Scripts\DestroyByContact.cs" />
      <Compile Include="Assets\Assets\Scripts\EnemyMath.cs" />
-     <Compile Include="Assets\Assets\Scripts\KAYLA.cs" />
      <Compile Include="Assets\Assets\Scripts\Level10ClickHandler.cs" />
      <Compile Include="Assets\Assets\Scripts\Level10MasterScript.cs" />
      <Compile Include="Assets\Assets\Scripts\Level11ClickHandler.cs" />
@@ -150,6 +149,7 @@
      <Compile Include="Assets\Assets\Scripts\Level8MasterScript.cs" />
      <Compile Include="Assets\Assets\Scripts\Level9ClickHandler.cs" />
      <Compile Include="Assets\Assets\Scripts\Level9MasterScript.cs" />
+     <Compile Include="Assets\Assets\Scripts\LevelSelector.cs" />
      <Compile Include="Assets\Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Assets\Scripts\SpawnerScript.cs" />
      <Compile Include="Assets\Assets\Scrpts\Dialogue.cs" />
