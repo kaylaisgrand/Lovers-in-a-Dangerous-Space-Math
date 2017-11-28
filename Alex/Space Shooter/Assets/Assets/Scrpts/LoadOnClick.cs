@@ -11,5 +11,9 @@ public class LoadOnClick : MonoBehaviour {
         LoadingScreenManager.LoadScene(levelName);
     }
     
-    
+	public void TryAgain(){
+
+		string level = PersistentManagerScript.Instance.LevelName;
+		SceneManager.LoadScene (level);
+	}
 }
