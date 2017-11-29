@@ -97,5 +97,28 @@ public class SpawnerScript : MonoBehaviour
         whatToSpawnClone[28] = Instantiate(whatToSpawnPrefab[2], spawnLocations[3].transform.position, Quaternion.Euler(0, -180, 0)) as GameObject;
         whatToSpawnClone[29] = Instantiate(whatToSpawnPrefab[2], spawnLocations[4].transform.position, Quaternion.Euler(0, -180, 0)) as GameObject;
     }
+
+
+	public void BossFire(){
+
+
+		whatToSpawnClone[1] = Instantiate(whatToSpawnPrefab[2], spawnLocations[0].transform.position, Quaternion.Euler(0, -180, 0)) as GameObject;
+
+		whatToSpawnClone[2] = Instantiate(whatToSpawnPrefab[2], spawnLocations[1].transform.position, Quaternion.Euler(0, -180, 0)) as GameObject;
+	
+
+
+	}
+
+	public void PlayerBossFire(){
+
+	
+		whatToSpawnClone[3] = Instantiate(whatToSpawnPrefab[1], spawnLocations[3].transform.position, Quaternion.Euler(0, -15, 0)) as GameObject;
+		whatToSpawnClone[4] = Instantiate(whatToSpawnPrefab[1], spawnLocations[3].transform.position, Quaternion.Euler(0, 0, 0)) as GameObject;
+		whatToSpawnClone[5] = Instantiate(whatToSpawnPrefab[1], spawnLocations[3].transform.position, Quaternion.Euler(0, 15, 0)) as GameObject;
+
+
+
+	}
 }   
     

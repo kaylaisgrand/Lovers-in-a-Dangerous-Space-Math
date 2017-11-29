@@ -53,4 +53,8 @@ public class LevelSelector : MonoBehaviour {
 		SceneManager.LoadScene ("Level 12");
 		LoadingScreenManager.LoadScene("Level 12");
 	}
+	public void LoadBossFight(){
+		SceneManager.LoadScene ("Boss Fight");
+		LoadingScreenManager.LoadScene("Boss Fight");
+	}
 }
