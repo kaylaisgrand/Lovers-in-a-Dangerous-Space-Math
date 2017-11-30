@@ -130,6 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 ca60dfd40465205ae76c6d3e60a7e88a Assembly-CSharp.dll:.Done_EvasiveManeuver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Conversation0
 4f76e9ef2f9613ce934ac5be02f3b708 Assembly-CSharp.dll:.Conversation6
+6d949133c2889298458d39d7439b6fea Assembly-CSharp.dll:.BossFightClickHandler
 974727881e8292a6b2726d3efe75152a Assembly-CSharp.dll:Fluent.ClickInitiator
 898c73d5a92bc6d80123729bfa51b577 Assembly-CSharp.dll:.RedGuy2
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelFailedScript
@@ -178,6 +179,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ClicksMcGee
 2bcd7e3000098fa42097dbc4079669db Assembly-CSharp.dll:.ClickHandler
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Fluent.ProximityInitiator
+0e7589c4b5006e377e17621acc72cd38 Assembly-CSharp.dll:.BossFightMasterObject
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Conversation7
 ca85baa647772d40e44841a501c07fdc Assembly-CSharp.dll:.DialogueTrigger
 5f1f6270816d39504b5e3be7266c9225 Assembly-CSharp.dll:.DestroyByContact
@@ -188,6 +190,7 @@ f09651f3b99fa0eed527a1660800bde5 Assembly-CSharp.dll:Fluent.FluentManager
 4c4e5bbdfb8b8f4d80c5ad7176b30d43 Assembly-CSharp.dll:.Done_RandomRotator
 e6620c373ab7ec2b45024da89745a65e Assembly-CSharp.dll:.Done_BGScroller
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Fluent.SoundHandler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadOnClick
+1b261a38e6cb86993a4ba32a3a5806ad Assembly-CSharp.dll:.LoadOnClick
+5e8f26ce59e54ff18d871d87004c903b Assembly-CSharp.dll:.BossFightDestroyByContact
 1cdde58d2207b12a94ac99746487d733 Assembly-CSharp.dll:.Conversation3
 c2c6d44f6a4f84129ec64efdd0df28ea Assembly-CSharp.dll:.Done_GameController
