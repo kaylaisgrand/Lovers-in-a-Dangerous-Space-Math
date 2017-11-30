@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class drop : MonoBehaviour {
 
     public Text output;
+	public GameObject question;
+
 
     private void Start()
     {
@@ -22,7 +24,7 @@ public class drop : MonoBehaviour {
 /*3*/"Digits of the answer added together will always be a multiple of 3",
 /*4*/"The second digit is a pattern: 4,8,2,6,0.",
 /*5*/"5 times an odd number will always end in 5, 5 times and even number will always end in 0",
-/*6*/"The last digit of 6x(an even number) is that number. The last digit of 6 x(odd number) is the number + 5",
+/*6*/"The last digit of 6x (an even number) is that number. The last digit of 6 x (odd number) is the number + 5",
 /*7*/" ",
 /*8*/" ",
 /*9*/"The two digits will always add up to 9. The first digit of the answer will be the other number minus 1",
@@ -33,7 +35,7 @@ public class drop : MonoBehaviour {
     public void Indexer (int val)
     {
         output.text = " " + hints[val];
-        
+		question.SetActive (false);
     }
 
 }
