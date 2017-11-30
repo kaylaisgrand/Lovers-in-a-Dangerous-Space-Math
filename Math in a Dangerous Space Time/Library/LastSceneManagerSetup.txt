@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/Dialogue Scne.unity
+- path: Assets/Scene/Math Tables.unity
   isLoaded: 1
   isActive: 1
