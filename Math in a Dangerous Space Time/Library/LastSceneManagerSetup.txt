@@ -1,6 +1,10 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scene/Splash Screen.unity
+=======
+- path: Assets/Scene/Dialogue Scne.unity
+>>>>>>> JULIEN
 =======
 - path: Assets/Scene/Dialogue Scne.unity
 >>>>>>> JULIEN
