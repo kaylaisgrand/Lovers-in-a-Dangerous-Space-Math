@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Splash Screen.unity
+    guid: ba735132b69993f41a339dc32dfb300b
+  - enabled: 1
+    path: Assets/_Scenes/Main.unity
+    guid: 70ae3671455af8f4bbd48fe62006b308
+  - enabled: 1
+    path: Assets/_Scenes/Math Tables.unity
+    guid: 29dbc619ef55aca4fa40cdebca85c236
+  - enabled: 1
+    path: Assets/_Scenes/Credits.unity
+    guid: c228e165ef9ed794097ce9d376b43623
+  - enabled: 1
+    path: Assets/_Scenes/Hint Scene.unity
+    guid: e70eca208c5b49344baa3a1208e215bd
+  - enabled: 1
+    path: Assets/_Scenes/Stats.unity
+    guid: 1f93faf61462b074f999482351085bc3
+  - enabled: 1
+    path: Assets/_Scenes/Stats 1.unity
+    guid: 2fc5aea46b1788347882799f1b641aa6

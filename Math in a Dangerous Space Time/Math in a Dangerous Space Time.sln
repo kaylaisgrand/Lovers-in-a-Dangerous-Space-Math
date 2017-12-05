@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math in a Dangerous Space Time", "Assembly-CSharp.csproj", "{DDAA6BCC-A63D-D918-1FE1-A634128D665D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math in a Dangerous Space Time", "Assembly-CSharp-Editor.csproj", "{8301B9CE-1B6C-E906-61BB-44694811EF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDAA6BCC-A63D-D918-1FE1-A634128D665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAA6BCC-A63D-D918-1FE1-A634128D665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAA6BCC-A63D-D918-1FE1-A634128D665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAA6BCC-A63D-D918-1FE1-A634128D665D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8301B9CE-1B6C-E906-61BB-44694811EF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8301B9CE-1B6C-E906-61BB-44694811EF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8301B9CE-1B6C-E906-61BB-44694811EF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8301B9CE-1B6C-E906-61BB-44694811EF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
