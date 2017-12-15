@@ -139,6 +139,7 @@ ca60dfd40465205ae76c6d3e60a7e88a Assembly-CSharp.dll:.Done_EvasiveManeuver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelSelector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Conversation10
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Conversation2
+f635c41c2a8175671aefd4428f60faa5 Assembly-CSharp.dll:.TutorialMaster
 8d58ee3c72a236fe79d53f5b35a31952 Assembly-CSharp.dll:.SpawnerScript
 668dfc3e020099596afbe33fb034da70 Assembly-CSharp.dll:.dialoguemanager
 c37d1c326e418bcde90e97e4d0eb74c9 Assembly-CSharp.dll:.Done_DestroyByContact
@@ -191,6 +192,7 @@ f09651f3b99fa0eed527a1660800bde5 Assembly-CSharp.dll:Fluent.FluentManager
 4c4e5bbdfb8b8f4d80c5ad7176b30d43 Assembly-CSharp.dll:.Done_RandomRotator
 e6620c373ab7ec2b45024da89745a65e Assembly-CSharp.dll:.Done_BGScroller
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Fluent.SoundHandler
+c39f530a47d713647c4059982d962af8 Assembly-CSharp.dll:.TutorialClick
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LoadOnClick
 5e8f26ce59e54ff18d871d87004c903b Assembly-CSharp.dll:.BossFightDestroyByContact
 1cdde58d2207b12a94ac99746487d733 Assembly-CSharp.dll:.Conversation3
