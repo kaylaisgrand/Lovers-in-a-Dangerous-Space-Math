@@ -51,13 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\FluentDialogue\Editor\FluentScriptEditor.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Editor\UnityConversationOptionsPresenterEditor.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Editor\WriteResponseHandlerEditor.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Editor\YellConversationResponseHandlerEditor.cs" />
      <Compile Include="Assets\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Assets\FluentDialogue\ReadMe.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
