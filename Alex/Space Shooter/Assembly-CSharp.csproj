@@ -62,6 +62,7 @@
      <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
      <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
      <Compile Include="Assets\Assets\drop.cs" />
+     <Compile Include="Assets\Assets\Scripts\ArrowStuff.cs" />
      <Compile Include="Assets\Assets\Scripts\BossFightClickHandler.cs" />
      <Compile Include="Assets\Assets\Scripts\BossFightDestroyByContact.cs" />
      <Compile Include="Assets\Assets\Scripts\BossFightMasterObject.cs" />
@@ -79,10 +80,12 @@
      <Compile Include="Assets\Assets\Scripts\SpawnerScript.cs" />
      <Compile Include="Assets\Assets\Scripts\TutorialClick.cs" />
      <Compile Include="Assets\Assets\Scripts\TutorialMaster.cs" />
+     <Compile Include="Assets\Assets\Scrpts\Blink.cs" />
      <Compile Include="Assets\Assets\Scrpts\Dialogue.cs" />
      <Compile Include="Assets\Assets\Scrpts\dialoguemanager.cs" />
      <Compile Include="Assets\Assets\Scrpts\DialogueTrigger.cs" />
      <Compile Include="Assets\Assets\Scrpts\LoadOnClick.cs" />
+     <Compile Include="Assets\Assets\Scrpts\TutDialogueTrigger1.cs" />
      <Compile Include="Assets\Assets\Scrpts\Tutorialdialoguemanager1.cs" />
      <Compile Include="Assets\Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\ClicksMcGee.cs" />

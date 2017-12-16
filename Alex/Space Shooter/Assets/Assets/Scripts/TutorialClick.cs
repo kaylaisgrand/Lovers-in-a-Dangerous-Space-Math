@@ -10,16 +10,11 @@ public class TutorialClick : MonoBehaviour
 
   public GameObject Master;
   public GameObject Spawn;
-  //   public GameObject arrow;
-  //   public GameObject arrow2;
-  //   public GameObject arrow3;
-  //   public GameObject arrow4;
   private SpawnerScript SpwnScript;
 
   public SpawnerScript spawner;
-  
-  private TutorialMaster MstrScript;
 
+  private TutorialMaster MstrScript;
   public void Reset()
   {
     MstrScript = Master.GetComponent<TutorialMaster>();
@@ -71,13 +66,12 @@ public class TutorialClick : MonoBehaviour
 
   public void CloseIncorrect()
   {
-    //closes the window and resets timer
     MstrScript = Master.GetComponent<TutorialMaster>();
     MstrScript.IncorrectScreen.SetActive(false);
-    MstrScript.myCoolTimer = 10;
-    MstrScript.ActivateTimer = true;
     Reset();
   }
+
+
   public void DisplayPause()
   {
     //Shows the pause screen and resets the timer back to 10 sec

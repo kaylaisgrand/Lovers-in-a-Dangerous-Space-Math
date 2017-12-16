@@ -37,10 +37,20 @@ public class TutorialMaster : MonoBehaviour
     Txt.GetComponent<Text>().text = a.ToString() + " X " + b.ToString() + " = ?";
   }
 
+  public void pauseAnswers()
+  {
+    ButtonArray[0].GetComponent<Button>().interactable = false;
+    ButtonArray[1].GetComponent<Button>().interactable = false;
+    ButtonArray[2].GetComponent<Button>().interactable = false;
+    ButtonArray[3].GetComponent<Button>().interactable = false;
+    ButtonArray[4].GetComponent<Button>().interactable = false;
+  }
+
   public void SetAnswers()
   {
 
     ButtonArray[1].GetComponentInChildren<Text>().text = c.ToString();
+    ButtonArray[1].GetComponent<Button>().interactable = true;
 
     ButtonArray[0].GetComponentInChildren<Text>().text = "8";  //Set all other buttons
     ButtonArray[0].GetComponent<Button>().interactable = false;

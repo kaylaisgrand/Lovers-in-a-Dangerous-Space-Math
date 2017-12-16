@@ -22,7 +22,7 @@ public class dialoguemanager : MonoBehaviour
 
   public void StartDialogue(Dialogue dialogue)
   {
-    nameText.text = dialogue.name;
+    nameText.text = dialogue.CHARname;
     sentences.Clear();
 
     foreach (string line in dialogue.sentences)
