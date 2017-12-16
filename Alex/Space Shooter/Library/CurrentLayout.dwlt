@@ -14,13 +14,19 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 43
     width: 1470
     height: 821
+=======
+    y: 54
+    width: 1680
+    height: 946
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -36,6 +42,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 699
     y: 0
     width: 494
@@ -43,6 +50,15 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 20}
+=======
+    x: 928
+    y: 0
+    width: 423
+    height: 896
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 21}
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_Panes:
   - {fileID: 20}
   - {fileID: 13}
@@ -67,12 +83,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1470
     height: 771
   m_MinSize: {x: 785, y: 471}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
   controlID: 22
+=======
+    width: 1680
+    height: 896
+  m_MinSize: {x: 887, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
+  vertical: 0
+  controlID: 124
+>>>>>>> refs/remotes/origin/SpaceBattle
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,10 +112,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1193
     y: 0
     width: 277
     height: 771
+=======
+    x: 1351
+    y: 0
+    width: 329
+    height: 896
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -115,11 +147,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 222
     height: 439
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
+=======
+    width: 268
+    height: 547
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 19}
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_Panes:
   - {fileID: 18}
   m_Selected: 0
@@ -139,9 +179,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 439
     width: 699
     height: 332
+=======
+    y: 547
+    width: 928
+    height: 349
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 16}
@@ -168,8 +214,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1470
     height: 821
+=======
+    width: 1680
+    height: 946
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
@@ -188,7 +239,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1470
+=======
+    width: 1680
+>>>>>>> refs/remotes/origin/SpaceBattle
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -208,8 +263,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 801
     width: 1470
+=======
+    y: 926
+    width: 1680
+>>>>>>> refs/remotes/origin/SpaceBattle
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -231,12 +291,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 699
     height: 771
   m_MinSize: {x: 304, y: 471}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 132
+=======
+    width: 928
+    height: 896
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 74
+>>>>>>> refs/remotes/origin/SpaceBattle
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,12 +324,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 699
     height: 439
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 133
+=======
+    width: 928
+    height: 547
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 75
+>>>>>>> refs/remotes/origin/SpaceBattle
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,11 +353,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 222
     y: 0
     width: 477
     height: 439
   m_MinSize: {x: 104, y: 121}
+=======
+    x: 268
+    y: 0
+    width: 660
+    height: 547
+  m_MinSize: {x: 204, y: 221}
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
@@ -399,6 +485,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+=======
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 236
+    y: 103
+    width: 585
+    height: 566
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -414,9 +529,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 531
     width: 697
     height: 311
+=======
+    y: 650
+    width: 926
+    height: 328
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -435,6 +556,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Assets/_Scenes
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\Julien\Documents\GitHub\Lovers-in-a-Dangerous-Space-Math\Alex\Space
     Shooter
   m_IsLocked: 0
@@ -443,6 +565,16 @@ MonoBehaviour:
     m_SelectedIDs: 0e290000
     m_LastClickedID: 10510
     m_ExpandedIDs: 00000000da2600006227000086270000b22700002a290000d82c000000ca9a3bffffff7f
+=======
+  m_LastProjectPath: C:\Users\Alex\Documents\GitHub\Lovers-in-a-Dangerous-Space-Math\Alex\Space
+    Shooter
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 442a0000
+    m_LastClickedID: 10820
+    m_ExpandedIDs: 00000000f027000080280000a2280000d4280000262e000000ca9a3bffffff7f
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Scrpts
@@ -470,7 +602,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000da2600006227000086270000b22700002a290000d82c0000
+=======
+    m_ExpandedIDs: 00000000f027000080280000a2280000d4280000262e0000
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,10 +683,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1195
     y: 92
     width: 275
     height: 750
+=======
+    x: 1353
+    y: 103
+    width: 327
+    height: 875
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -581,6 +724,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 92
     width: 220
     height: 418
@@ -589,6 +733,16 @@ MonoBehaviour:
     m_SelectedIDs: 82270000
     m_LastClickedID: 0
     m_ExpandedIDs: 3006e3ff7613e3ff2871f4ff0e82f4ff0667f5ff828bf5ffaea1f5ffaab5f5ff4ec0f5ff9811f7ffea1df7fff449f7ff8c72f7ff34f2f7ffb80cf8ffe447f8ffec50f8ff3220f9ffaa42f9ff405cf9ffa46bf9ff36aaf9ff58bbf9ff50def9ff7ae8f9ff38faf9ffde07faffa028faff5438faffa64dfaff947afaff0a63fbffc685fbff5ab1feff70b6feff7ec4feff4ae1feff02e4feff980effffda37ffff9a70ffff4e8effff24bbffffe0c7ffff38d8ffff1afcffff00000000442f000044310000a631000022320000ce320000c03300008438000058390000d23b0000ea400000224100002c41000060410000744a0000d04a0000d06a0000da6a00001c6b0000506b00005c6c0000b66c00008477000098770000da77000016780000547c0000967c0000d27c0000188100005a810000968100003e840000d68a0000e08a00001c8b0000348c00008e8c0000968f0000a08f0000dc8f000042900000f69000005091000064940000d6960000f09700004a9800009ea40000daa40000f4a500004ea6000090ab00009aab0000d6ab0000f0ac00004aad00008eb2000098b200001eb500004ab60000a4b60000fab700003cb8000078b80000deb800006cb90000a4b90000e0b90000feb9000000db000078db00009edb0000b4db0000d2db000020dc00003edc000064dc000078dc000096dc000012dd0000
+=======
+    y: 103
+    width: 266
+    height: 526
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4a010000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 161cf5ffe22df5ff3475f5ff94c9f5ff3c27f6fffa3df6ff2e08f7ff1c2af7ffc649f7ff7663f7fff48cf7ff10b4f7fff0d9f7ff02f9f7ff9418f8ff9c4bf8ff447af8fff08bf8ffa099f8ff0cc1f8ffc8eff8ff5023f9ff2c52f9ff7683f9ff34b2f9ffccf3f9ff9239faffa869faff8c6dfaffe4a9faffa8e3fafff4edfaff7af3faffbc48fbff3261fbff8c66fbff6279fbffd699fbffc059fcffc259fcffc666fcffd896fcff92a6fcff088dfdff50e3fffffae4ffffa8fbffff00000000c6300000e63000001c3100003831000086310000003200001e320000f235000008360000123600002c360000383600003e3600008c360000a8360000ba3e0000da3e0000383f00007a420000f44200006c430000ce4c0000d84c0000e24c00001a4d0000244d00000c4e0000164e00004e4e0000584e0000ee4f000026500000305000000e5100002a51000044510000605100007a5100008451000090510000b25100009c5200003e55000070550000b4550000ee550000d8560000a05a0000c65a00006a5d0000005e0000c060000088610000d8630000ae640000e0680000ac6900008e6c0000b26c000014700000e8700000bc740000dc7400004a770000c6770000ca7a0000a07b00004e8500006485000078850000c4850000fe850000e0860000ee8600008a870000508b0000668b0000428c0000628c0000908c0000be8c0000968e00000c8f00008c8f0000069000006c920000209300007c9300008e930000a2950000aa95000070960000b4960000dc98000070990000a0990000789a0000849c0000a09c0000029d00001e9d000032a000003aa000004ca100005ca100004ca30000e0a3000054a40000bca4000026a7000068a7000078a7000000a8000010aa000022aa000038aa00004aaa000054aa000066aa000088aa000092aa00009caa0000d8aa0000f0aa0000faaa000004ab00000cab000016ab00009eac0000caac00003cad00004aad000054ad00007cad0000b2ad000060ae00006cae00007eae00008eae0000a8ae0000ceae000094af0000a8b0000006b3000028b300004ab3000054b3000036b4000040b400004ab400005cb4000068b4000072b400007cb40000
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -607,7 +761,11 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
   - Tutorial
+=======
+  - Splash Screen
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -633,6 +791,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 209
     y: 92
     width: 631
@@ -646,6 +805,21 @@ MonoBehaviour:
     m_Target: {x: 1.0885156, y: 10.003245, z: -0.39517468}
     speed: 2
     m_Value: {x: 1.0885156, y: 10.003245, z: -0.39517468}
+=======
+    x: 270
+    y: 103
+    width: 656
+    height: 526
+  m_SceneLighting: 1
+  lastFramingTime: 13020.877621099393
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 241.10117, y: 314.23322, z: -0.49110314}
+    speed: 2
+    m_Value: {x: 241.10117, y: 314.23322, z: -0.49110314}
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -672,15 +846,28 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
+<<<<<<< HEAD
     m_Target: 15.141743
     speed: 2
     m_Value: 15.141743
+=======
+    m_Target: 651.44867
+    speed: 2
+    m_Value: 651.44867
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_Ortho:
     m_Target: 0
     speed: 2
+<<<<<<< HEAD
     m_Value: 0
   m_LastSceneViewRotation: {x: 0.7071069, y: 0, z: 0, w: 0.7071069}
   m_LastSceneViewOrtho: 1
+=======
+    m_Value: 1
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: 0.68296057, y: 0.0017552212, z: -0.0016409995, w: 0.73045135}
+  m_LastSceneViewOrtho: 0
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
@@ -707,10 +894,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 701
     y: 92
     width: 490
     height: 750
+=======
+    x: 930
+    y: 103
+    width: 419
+    height: 875
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -719,10 +913,17 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -229.0625
     m_HBaseRangeMax: 229.0625
     m_VBaseRangeMin: -366.5
     m_VBaseRangeMax: 366.5
+=======
+    m_HBaseRangeMin: -209.5
+    m_HBaseRangeMax: 209.5
+    m_VBaseRangeMin: -335.2
+    m_VBaseRangeMax: 335.2
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -739,25 +940,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 490
       height: 733
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 245, y: 366.5}
+=======
+      width: 419
+      height: 858
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 209.5, y: 429}
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -245
       y: -366.5
       width: 490
       height: 733
+=======
+      x: -209.5
+      y: -429
+      width: 419
+      height: 858
+>>>>>>> refs/remotes/origin/SpaceBattle
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 490, y: 750}
+=======
+  m_LastWindowPixelSize: {x: 419, y: 875}
+>>>>>>> refs/remotes/origin/SpaceBattle
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -783,7 +1002,14 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 224
     y: 92
     width: 473
     height: 418
+=======
+    x: 270
+    y: 103
+    width: 613
+    height: 526
+>>>>>>> refs/remotes/origin/SpaceBattle

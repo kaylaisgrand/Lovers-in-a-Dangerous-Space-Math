@@ -1,8 +1,16 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: eed134658f36c55468207cf216070fde
 timeCreated: 1513131719
 licenseType: Free
 TrueTypeFontImporter:
+=======
+guid: b6ec85e3ad63ce243be541d6c23bd591
+timeCreated: 1513192736
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+>>>>>>> refs/remotes/origin/SpaceBattle
   serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
@@ -13,7 +21,12 @@ TrueTypeFontImporter:
   fontNames:
   - Xolonium
   fallbackFontReferences:
+<<<<<<< HEAD
   - {fileID: 12800000, guid: c5211175e1d54c54e9ea986d9aaa0566, type: 3}
+=======
+  - {fileID: 12800000, guid: 065235cd2e083c7448c4e5ebc6fba0bf, type: 3}
+  - {fileID: 12800000, guid: 0a54ae6f670544743b1ac9707f3d0480, type: 3}
+>>>>>>> refs/remotes/origin/SpaceBattle
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
