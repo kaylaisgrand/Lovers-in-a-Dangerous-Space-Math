@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
@@ -23,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -70,6 +69,8 @@
      <Compile Include="Assets\Assets\Scripts\ClickHandler.cs" />
      <Compile Include="Assets\Assets\Scripts\DestroyByBoundary.cs" />
      <Compile Include="Assets\Assets\Scripts\DestroyByContact.cs" />
+     <Compile Include="Assets\Assets\Scripts\EASYClick.cs" />
+     <Compile Include="Assets\Assets\Scripts\EASYMaster.cs" />
      <Compile Include="Assets\Assets\Scripts\EnemyMath.cs" />
      <Compile Include="Assets\Assets\Scripts\LevelCompleteScript.cs" />
      <Compile Include="Assets\Assets\Scripts\LevelFailedScript.cs" />
@@ -92,189 +93,6 @@
      <Compile Include="Assets\ClicksMcGee.cs" />
      <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
- </Reference>
- <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Timeline">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
-  
-</Project>
-=======
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <LangVersion>4</LangVersion>
-  </PropertyGroup>
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.20506</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
-    <ProjectGuid>{28FCF307-BCEB-DF00-C466-08C29A16E02D}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <BaseDirectory>Assets</BaseDirectory>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>Temp\bin\Release\</OutputPath>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.XML" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByBoundary.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByContact.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_DestroyByTime.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_EvasiveManeuver.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_GameController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_Mover.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_PlayerController.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_RandomRotator.cs" />
-     <Compile Include="Assets\_Complete-Game\Scripts\Done_WeaponController.cs" />
-     <Compile Include="Assets\Assets\drop.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\FluentNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\FluentNodeHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\FluentNodeHandlerAttribute.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\FluentScript.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\FluentString.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\HighlightFix.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\Language.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\LanguageManager.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\OptionsPresenter.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Base\SoundPlayer.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\BlueGuy2.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation0.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation1.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation10.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation11.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation12.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation13.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation14.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation15.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation16.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation2.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation3.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation4.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation5.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation6.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation7.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation8.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Conversation9.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\ConversationWithImage.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\MyFluentDialogue.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\Player.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Example\RedGuy2.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\FluentNodeHandlers\ContinueWhenHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\FluentNodeHandlers\PauseFluentNodeHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\FluentNodeHandlers\SoundHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\FluentNodeHandlers\WriteHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\FluentNodeHandlers\YellHandler.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Initiate\ClickInitiator.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Initiate\FluentManager.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Initiate\GameAction.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Initiate\GameActionInitiator.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Initiate\ProximityInitiator.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\BackNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\ContinueWhenNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\DoNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\EndNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\HideNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\IfNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\LogNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\OnceNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\OptionNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\OptionsNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\ParallelNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\PauseNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\SequentialNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\ShowNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\SoundNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\WhileNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\WriteNode.cs" />
-     <Compile Include="Assets\Assets\FluentDialogue\Nodes\YellNode.cs" />
-     <Compile Include="Assets\Assets\Scripts\BossFightClickHandler.cs" />
-     <Compile Include="Assets\Assets\Scripts\BossFightDestroyByContact.cs" />
-     <Compile Include="Assets\Assets\Scripts\BossFightMasterObject.cs" />
-     <Compile Include="Assets\Assets\Scripts\ClickHandler.cs" />
-     <Compile Include="Assets\Assets\Scripts\DestroyByBoundary.cs" />
-     <Compile Include="Assets\Assets\Scripts\DestroyByContact.cs" />
-     <Compile Include="Assets\Assets\Scripts\EASYClick.cs" />
-     <Compile Include="Assets\Assets\Scripts\EASYMaster.cs" />
-     <Compile Include="Assets\Assets\Scripts\EnemyMath.cs" />
-     <Compile Include="Assets\Assets\Scripts\LevelCompleteScript.cs" />
-     <Compile Include="Assets\Assets\Scripts\LevelFailedScript.cs" />
-     <Compile Include="Assets\Assets\Scripts\LevelSelector.cs" />
-     <Compile Include="Assets\Assets\Scripts\LoadingScreenManager.cs" />
-     <Compile Include="Assets\Assets\Scripts\MasterScript.cs" />
-     <Compile Include="Assets\Assets\Scripts\Mover.cs" />
-     <Compile Include="Assets\Assets\Scripts\PersistentManagerScript.cs" />
-     <Compile Include="Assets\Assets\Scripts\SpawnerScript.cs" />
-     <Compile Include="Assets\Assets\Scrpts\Dialogue.cs" />
-     <Compile Include="Assets\Assets\Scrpts\dialoguemanager.cs" />
-     <Compile Include="Assets\Assets\Scrpts\DialogueTrigger.cs" />
-     <Compile Include="Assets\Assets\Scrpts\LoadOnClick.cs" />
-     <Compile Include="Assets\Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\ClicksMcGee.cs" />
-     <Compile Include="Assets\Planet Earth Free\SpinFree.cs" />
-     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
-     <None Include="Assets\Assets\FluentDialogue\ReadMe.txt" />
      <None Include="Assets\Assets\LICENSE.txt" />
      <None Include="Assets\Assets\FONTLOG.txt" />
  <Reference Include="UnityEngine.UI">
@@ -292,23 +110,8 @@
  <Reference Include="UnityEngine.Timeline">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UIAutomation">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/Alex/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/Alex/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -321,4 +124,3 @@
   -->
   
 </Project>
->>>>>>> refs/remotes/origin/SpaceBattle
