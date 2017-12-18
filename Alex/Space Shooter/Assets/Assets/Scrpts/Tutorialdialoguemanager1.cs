@@ -14,6 +14,8 @@ public class Tutorialdialoguemanager1 : MonoBehaviour
   public Dialogue dialog;
   public List<GameObject> arrows;
 
+  public GameObject backbutton;
+
   private Queue<string> sentences;
   // Use this for initialization
   public GameObject g;
@@ -40,6 +42,7 @@ public class Tutorialdialoguemanager1 : MonoBehaviour
       arr.SetActive(false);
       Debug.Log("hidden");
     }
+    backbutton.SetActive(false);
   }
 
   public void showarrowclick(Dialogue d)
@@ -65,6 +68,11 @@ public class Tutorialdialoguemanager1 : MonoBehaviour
     {
       tutorialm = master.GetComponent<TutorialMaster>();
       tutorialm.SetAnswers();
+    }
+
+    if (count == 12)
+    {
+      backbutton.SetActive(true);
     }
   }
   public void StartDialogue(Dialogue dialogue)
@@ -102,6 +110,7 @@ public class Tutorialdialoguemanager1 : MonoBehaviour
     }
     count++;
     gameplaydia();
+
     Debug.Log(count);
   }
 
