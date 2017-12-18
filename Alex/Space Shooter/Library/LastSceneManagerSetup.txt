@@ -1,4 +1,8 @@
 sceneSetups:
-- path: Assets/Assets/_Scenes/Level Select.unity
+<<<<<<< HEAD
+- path: Assets/Assets/_Scenes/Tutorial.unity
+=======
+- path: Assets/Assets/_Scenes/Splash Screen.unity
+>>>>>>> refs/remotes/origin/SpaceBattle
   isLoaded: 1
   isActive: 1

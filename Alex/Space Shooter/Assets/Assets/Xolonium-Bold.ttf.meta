@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: c5211175e1d54c54e9ea986d9aaa0566
+timeCreated: 1513130910
+licenseType: Free
+TrueTypeFontImporter:
+=======
+guid: 0a54ae6f670544743b1ac9707f3d0480
+timeCreated: 1513192736
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+>>>>>>> refs/remotes/origin/SpaceBattle
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Xolonium
+  fontNames:
+  - Xolonium
+<<<<<<< HEAD
+  fallbackFontReferences: []
+=======
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 065235cd2e083c7448c4e5ebc6fba0bf, type: 3}
+>>>>>>> refs/remotes/origin/SpaceBattle
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
